@@ -120,6 +120,8 @@ footer {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  width: 640px;
+  margin: 0 auto;
 }
 
 /*****************************************************************************/
@@ -129,6 +131,11 @@ footer {
 /*****************************************************************************/
 
 /* standard */
+.post {
+  width: 640px;
+  margin: 0 auto;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
