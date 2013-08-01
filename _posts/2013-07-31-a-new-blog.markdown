@@ -5,4 +5,6 @@ date:   2013-07-31 19:58:31
 ---
 For some time now I've wanted a personal blog. To write about what I'm doing in my life, ideas I have and programming tips. Today I took the first step. I've started building sites using Rails in the past but the quickly become bloated and overkill. I feel that [Jekyl][jekyll] is going to work quite well for what I'm trying to do. 
 
+Expect to see the design changing over the coming days. I'm excited about finally having this. It's been far too long.
+
 [jekyll]:    http://jekyllrb.com
