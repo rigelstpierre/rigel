@@ -87,10 +87,10 @@ header a {
 
 header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
   font-size: 40px;
   text-align: center;
   margin-top: 1em;
+  line-height: 0px;
 }
 
 header h1.title a {
@@ -104,8 +104,9 @@ header h1.title a:hover {
 
 header a.extra {
   color: #aaa;
-  margin-left: 1em;
 }
+
+
 
 header a.extra:hover {
   color: #000;
@@ -166,4 +167,10 @@ footer {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+#home {
+  width: 640px;
+  margin: 0 auto;
+  margin-top: 2em
 }
