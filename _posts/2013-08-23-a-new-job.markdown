@@ -1,8 +1,0 @@
----
-layout: post
-title: "A New Job"
-date:  2013-08-23 09:00:00
----
-As long as I've been a developer for the most part I have always been freelance. I've found that it works best with the way I like to live my life. I like to be able to travel, be spontaneous, and have the freedom to do what I want, when I want. For the most part it's had it's ups but it has also had it's downs. Recently I haven't been in love with freelance. It's been causing me more stress than I'd really like to deal with. I've wanted to focus more on building a product and taking ownership of it. It's hard to do that when your a contractor. A couple of weeks ago I reached out to Amco, a local company building some cool products with a great team.
-
-Today I start here as Rails Blacksmith. I'm really excited. For the first time in long time I will have structure (Hello 9-5), and the choices I make in the code I write today will effect me down the road. It's really a cool place to be. It will also give me the freedom to be choosy with my clients, and also start to focus on my own ideas. I'm excited for the next chapter of my life.
