@@ -148,6 +148,24 @@ footer {
   overflow: hidden;
   width: 640px;
   margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+footer ul {
+  width: 123px;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+footer ul li a {
+  font-size: 35px;
+  text-decoration: none;
 }
 
 /*****************************************************************************/
@@ -191,6 +209,10 @@ footer {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.pagination {
+  margin-bottom: 25px;
 }
 
 #home {
