@@ -30,6 +30,13 @@ h2 {
   margin-top: 25px;
 }
 
+h3 {
+  font-size: 24px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+
 p { margin: 1em 0; }
 
 a         { color: #28373b; }
@@ -233,4 +240,12 @@ footer ul li a {
   float: left;
   border: 3px solid #38524f;
   margin: 0 7px 10px 7px;
+}
+
+ul.client-list {
+  list-style: none;
+}
+
+ul.client-list li {
+  margin: 10px 0;
 }
