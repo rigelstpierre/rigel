@@ -2,4 +2,5 @@ name: Rigel St. Pierre
 markdown: redcarpet
 pygments: true
 paginate: 25
+permalink: /:title.html
 url: http://rigel.co

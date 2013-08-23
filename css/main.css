@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+
+h2 {
+  font-size: 36px;
+  margin-top: 25px;
+}
+
 p { margin: 1em 0; }
 
 a         { color: #28373b; }
@@ -127,13 +133,13 @@ header h1.title a:hover {
 }
 
 header a.extra {
-  color: #aaa;
+  color: #38524f;
 }
 
 
 
 header a.extra:hover {
-  color: #000;
+  color: #171515;
 }
 
 .meta {
@@ -225,6 +231,6 @@ footer ul li a {
   width: 300px;
   height: 300px;
   float: left;
-  border: 3px solid #171515;
+  border: 3px solid #38524f;
   margin: 0 7px 10px 7px;
 }
