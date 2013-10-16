@@ -1,62 +1,37 @@
 ---
 layout: default
-title: Rigel St. Pierre | Developer
 ---
 
-<div id="home">
-  <div class="posts">
-    {% for post in paginator.posts %}
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-        {% if post.next %}
-                {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
-                {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
-        {% endif %}
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-        {% if forloop.first %}
-          <div class="post-group">
-            <h2>{{ post.date | date: '%B %Y' }}</h2>
-            <ul>
-              <li class="post">
-                  <span><a href="{{ post.url }}">{{ post.title | truncatewords: 10 }}</a></span>
-                  <span class="date">{{ post.date | date_to_string }}</span>
-                </li>
-
-        {% else %}
-
-          {% if month == nmonth %}
-            <li class="post">
-              <span><a href="{{ post.url }}">{{ post.title | truncatewords: 10}}</a></span>
-              <span class="date">{{ post.date | date_to_string }}</span>
-            </li>
-          {% else %}
-              </ul>
-            </div>
-            <div class="post-group">
-            <h2>{{ post.date | date: '%B %Y' }}</h2>
-            <ul>
-              <li class="post">
-                  <span><a href="{{ post.url }}">{{ post.title | truncatewords: 10 }}</a></span>
-                  <span class="date">{{ post.date | date_to_string }}</span>
-                </li>
-          {% endif %}
-
-        {% endif %}
-
-    {% endfor %}
+    {{ post.content }}
   </div>
+  {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
-      {% else %}
-        <a href="/page{{ paginator.previous_page }}">Previous</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    <a href="/page{{paginator.next_page}}" class="older">Older</a>
+  {% else %}
+    <span class="next">Older</span>
   {% endif %}
-</div>
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="newer">Newer</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Newer</span>
+  {% endif %}
 </div>
