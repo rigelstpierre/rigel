@@ -185,7 +185,7 @@ a:hover {
 /* Header */
 .masthead {
   color: #fff;
-  background: url('/images/sidebar.jpg') no-repeat center center fixed; 
+  background: url('/images/sidebar.jpg') no-repeat -10px center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
