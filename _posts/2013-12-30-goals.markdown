@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Goals"
+date:  2013-12-30
+---
+
+It's that time of year again when people post a list of the goals that they have for the coming year. Many, including me write these lists every year and then about 2 weeks into the year proceed to fail. In a way I failed many of the goals I set out to achieve this year. I wanted to start running and get in shape. I think I got fatter. But with failure comes success. 
+
+I wanted to travel more this year. I went to Australia, LA, Pittsburg, San Francisco and Toronto. I also drove from San Diego, CA to Kelowna, BC alone in 30 hours straight. I wanted to be a better programmer. I spent more time working on that and in August took a full time job as a Ruby on Rails Developer with Amco in San Diego. 
+
+All in all it was a really great year. So it's that time of year when I make a new set of goals for the next year:
+
+	* Get Health
+	* Push Code to Github Everyday in 2014
+	* Play more music
+	* Surf more
+	* Continue to Travel
+	* Grow in my faith
+	* Become a better photographer
+
+Some of these will be easy, like pushing code daily as part of my job is pushing code to Github, but others like getting healthy will take a lifestyle change. I'm excited for the year ahead, 2013 was great but I really feel that 2014 is set to be even better!
