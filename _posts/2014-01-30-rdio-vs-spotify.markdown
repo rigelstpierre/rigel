@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Rdio vs Spotify”
+title: Rdio vs Spotify
 date:  2014-01-30
 ---
 
