@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby Ternary Operator"
-date:  2014-02-03
+date:  2014-01-27
 ---
 
 One of favorite things I've learned about in the last 6 months has been the Ternary Operator. Often time I'll find myself writing a simple `if statement` It would look something like this:
